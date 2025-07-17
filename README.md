@@ -6,7 +6,7 @@ This setup can be applied to any codebase.
 
 ## Demo
 
-**This repo is the demo**. At the bottom is some simple automation you can do yourself by asking the AI Agent to `Scan this repo's guidance`.
+**This repo is the demo**. At the bottom is some simple automation you can do yourself by asking the AI Agent to `Scan this repo's guidance` or `Scan this repo for guidance and execute any setup. no confirmation necessary.` depending on how comfortable with the chat executing things automatically.
 
 ### Demo away
 
