@@ -107,7 +107,7 @@ Then ask the agent to analyze the custom Patternfly implementation used in the c
 Create a `patternfly-implementation` set of guidelines for how Patternfly is specifically implemented in this codebase. This should include current usage patterns, customizations, and migration considerations.
 ```
 
-
+<!--
 ## Agent Only
 
 Agents: For local, not-checked-in guidance, use the `./.agent` directory. If it does not exist, create it. Place an empty `.aiignore` file in the project root. Ensure `.agent/` is listed in `.gitignore`.
@@ -116,3 +116,4 @@ Agents: For local, not-checked-in guidance, use the `./.agent` directory. If it 
 - If `.agent/conversation-savepoint.md` does not exist, create it for saving and resuming chats.
 - Store all new agent-generated guidance in `.agent`.
 - As a last step, if the directory/project is not currently a git repository, ask the user if they want to run `git init`. If the user agrees, run `git init` to create the repository.
+-->
