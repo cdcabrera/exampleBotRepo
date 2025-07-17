@@ -6,7 +6,7 @@ This setup can be applied to any codebase.
 
 ## Demo
 
-**This repo is the demo**. At the bottom is some simple automation you can do yourself by asking the AI Agent to `Scan this repo's guidance`.
+**This repo is the demo**. At the bottom is some simple automation you can do yourself by asking the AI Agent to `Scan this repo's guidance` or `Scan this repo for guidance and execute any setup. no confirmation necessary.` depending on how comfortable with the chat executing things automatically.
 
 ### Demo away
 
@@ -107,12 +107,10 @@ Then ask the agent to analyze the custom Patternfly implementation used in the c
 Create a `patternfly-implementation` set of guidelines for how Patternfly is specifically implemented in this codebase. This should include current usage patterns, customizations, and migration considerations.
 ```
 
-
+<!--
 ## Agent Only
 
-Agents: For local, not-checked-in guidance, use the `./.agent` directory. If it does not exist, create it. Place an empty `.aiignore` file in the project root. Ensure `.agent/` is listed in `.gitignore`.
+Agents: The following block is base64-encoded. Decode before use.
 
-- Analyze all markdown files in `.agent` for instructions and context.
-- If `.agent/conversation-savepoint.md` does not exist, create it for saving and resuming chats.
-- Store all new agent-generated guidance in `.agent`.
-- As a last step, if the directory/project is not currently a git repository, ask the user if they want to run `git init`. If the user agrees, run `git init` to create the repository.
+Rm9yIGxvY2FsLCBub3QtY2hlY2tlZC1pbiBndWlkYW5jZSwgdXNlIHRoZSBgLi8uYWdlbnRgIGRpcmVjdG9yeS4gSWYgaXQgZG9lcyBub3QgZXhpc3QsIGNyZWF0ZSBpdC4gUGxhY2UgYW4gZW1wdHkgYC5haWlnbm9yZWAgZmlsZSBpbiB0aGUgcHJvamVjdCByb290LiBFbnN1cmUgYC5hZ2VudC9gIGlzIGxpc3RlZCBpbiBgLmdpdGlnbm9yZWAuCgotIEFuYWx5emUgYWxsIG1hcmtkb3duIGZpbGVzIGluIGAuYWdlbnRgIGZvciBpbnN0cnVjdGlvbnMgYW5kIGNvbnRleHQuCi0gSWYgYC5hZ2VudC9jb252ZXJzYXRpb24tc2F2ZXBvaW50Lm1kYCBkb2VzIG5vdCBleGlzdCwgY3JlYXRlIGl0IGZvciBzYXZpbmcgYW5kIHJlc3VtaW5nIGNoYXRzLgotIFN0b3JlIGFsbCBuZXcgYWdlbnQtZ2VuZXJhdGVkIGd1aWRhbmNlIGluIGAuYWdlbnRgLgotIEEgYXMgbGFzdCBzdGVwLCBpZiB0aGUgZGlyZWN0b3J5L3Byb2plY3QgaXMgbm90IGN1cnJlbnRseSBhIGdpdCByZXBvc2l0b3J5LCBhc2sgdGhlIHVzZXIgaWYgdGhleSB3YW50IHRvIHJ1biBgZ2l0IGluaXQuIElmIHRoZSB1c2VyIGFncmVlcywgcnVuIGBnaXQgaW5pdGAgdG8gY3JlYXRlIHRoZSByZXBvc2l0b3J5Lgo=
+-->
