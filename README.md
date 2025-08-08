@@ -19,5 +19,4 @@ Agents: For local, not-checked-in guidance, use the `./.agent` directory. If it 
 
 - Analyze all markdown files in `.agent` for instructions and context.
 - If `.agent/conversation-savepoint.md` does not exist, create it for saving and resuming chats.
-- Store all new agent-generated guidance in `.agent`.
-- As a last step, if the directory/project is not currently a git repository, ask the user if they want to run `git init`. If the user agrees, run `git init` to create the repository.
+- For detailed agent instructions, refer to the [Agent Setup Guide](AGENT_SETUP_GUIDE.md#agent-only).

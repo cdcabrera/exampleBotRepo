@@ -34,7 +34,7 @@ Creating basic guidelines can give you some semblance of AI agent consistency.
 
 ### README agent section
 
-Create an AI agent only section at the bottom of your repo's `README.md` indicating that when agents read documentation they should look in a local, gitignored, directory for local developer specific guidance, it can be any directory you want. You can ask the agent to do this. For reference, see the agent section in the main `README.md`.
+Create an AI agent only section at the bottom of your repo's `README.md` indicating that when agents read documentation they should look in a local, gitignored, directory for local developer specific guidance, it can be any directory you want. You can ask the agent to do this. For reference, see the "Agent Only" section at the bottom of this guide or in the main `README.md`.
 
 > To view hidden files on Mac with the latest OS, the 3-key command is
 > `shift apple/command period`
@@ -104,3 +104,26 @@ Then ask the agent to analyze the custom Patternfly implementation used in the c
 ```
 Create a `patternfly-implementation` set of guidelines for how Patternfly is specifically implemented in this codebase. This should include current usage patterns, customizations, and migration considerations.
 ```
+
+## Agent Only
+
+This section contains specific instructions for AI agents working with this repository.
+
+### Basic Setup Instructions
+
+- Use the `./.agent` directory for local, not-checked-in guidance. If it does not exist, create it.
+- Place an empty `.aiignore` file in the project root if it doesn't exist.
+- Ensure `.agent/` is listed in `.gitignore`.
+- Analyze all markdown files in `.agent` for instructions and context.
+- If `.agent/conversation-savepoint.md` does not exist, create it for saving and resuming chats.
+- Store all new agent-generated guidance in `.agent`.
+
+### Conversation Management
+
+- When starting a new session, check for `.agent/conversation-savepoint.md` and load previous context.
+- Before ending a session, offer to update the conversation savepoint with key insights and decisions.
+- When resuming from a savepoint, briefly summarize the previous conversation.
+
+### Repository Management
+
+- As a last step for new repositories, if the directory/project is not currently a git repository, ask the user if they want to run `git init`. If the user agrees, run `git init` to create the repository.
